@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 2.8.3)
 project(ros1_graph_manager_interface)
 
 # Can we use C++17 in indigo?
@@ -32,3 +32,7 @@ SubgraphMatch.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs sensor_msgs)
+catkin_package(
+ CATKIN_DEPENDS pcl_ros roscpp sensor_msgs
+ DEPENDS system_lib
+)
