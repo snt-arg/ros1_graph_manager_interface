@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(ros1_graph_manager_interface)
+project(graph_manager_msgs)
 
 # Can we use C++17 in indigo?
 add_definitions(-msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2)

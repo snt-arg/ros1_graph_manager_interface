@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros1_graph_manager_interface</name>
+  <name>graph_manager_msgs</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="muhammad_shaheer_ahmed@outlook.com">msh</maintainer>
