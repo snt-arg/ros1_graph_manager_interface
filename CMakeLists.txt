@@ -25,6 +25,7 @@ add_message_files(FILES
   Edge.msg
   Graph.msg
   Node.msg
+  Match.msg
 )
 
 add_service_files(FILES
